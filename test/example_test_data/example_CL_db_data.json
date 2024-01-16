@@ -1,0 +1,157 @@
+{
+    "domains": "restaurant",
+    "turns": [
+        {
+            "user_utterance": "i am looking for an expensive italian restaurant .",
+            "user_utterance_delex": "i am looking for an [value_pricerange] [value_food] restaurant .",
+            "system_utterance": "",
+            "system_utterance_delex": "",
+            "belief_state": [
+                [
+                    "restaurant-food",
+                    "italian"
+                ],
+                [
+                    "restaurant-price range",
+                    "expensive"
+                ]
+            ],
+            "state_change": {
+                "restaurant-food": [
+                    "INSERT",
+                    "italian"
+                ],
+                "restaurant-price range": [
+                    "INSERT",
+                    "expensive"
+                ]
+            },
+            "turn_id": "sng0699-0"
+        },
+        {
+            "user_utterance": "great yeah that sounds great can you book a table for 5 people at 11:30 on sunday ?",
+            "user_utterance_delex": "great yeah that sounds great can you book a table for [value_count] people at [value_time] on [value_day] ?",
+            "system_utterance": "there is an expensive italian restaurant named frankie and bennys at cambridge leisure park clifton way cherry hinton . would you like to go there or choose another ?",
+            "system_utterance_delex": "there is an [value_pricerange] [value_food] restaurant named [restaurant_name] at [restaurant_address] cherry hinton . would you like to go there or choose another ?",
+            "belief_state": [
+                [
+                    "restaurant-book day",
+                    "sunday"
+                ],
+                [
+                    "restaurant-book people",
+                    "5"
+                ],
+                [
+                    "restaurant-book time",
+                    "11:30"
+                ],
+                [
+                    "restaurant-food",
+                    "italian"
+                ],
+                [
+                    "restaurant-name",
+                    "frankie and bennys"
+                ],
+                [
+                    "restaurant-price range",
+                    "expensive"
+                ]
+            ],
+            "state_change": {
+                "restaurant-book day": [
+                    "INSERT",
+                    "sunday"
+                ],
+                "restaurant-book people": [
+                    "INSERT",
+                    "5"
+                ],
+                "restaurant-book time": [
+                    "INSERT",
+                    "11:30"
+                ],
+                "restaurant-name": [
+                    "INSERT",
+                    "frankie and bennys"
+                ]
+            },
+            "turn_id": "sng0699-1"
+        },
+        {
+            "user_utterance": "how about 10:30 on sunday ? and may i have a reference number ?",
+            "user_utterance_delex": "how about [value_time] on [value_day] ? and may i have a reference number ?",
+            "system_utterance": "unfortunately there are no tables available , please try another day or time slot .",
+            "system_utterance_delex": "unfortunately there are no tables available , please try another day or time slot .",
+            "belief_state": [
+                [
+                    "restaurant-book day",
+                    "sunday"
+                ],
+                [
+                    "restaurant-book people",
+                    "5"
+                ],
+                [
+                    "restaurant-book time",
+                    "10:30"
+                ],
+                [
+                    "restaurant-food",
+                    "italian"
+                ],
+                [
+                    "restaurant-name",
+                    "frankie and bennys"
+                ],
+                [
+                    "restaurant-price range",
+                    "expensive"
+                ]
+            ],
+            "state_change": {
+                "restaurant-book time": [
+                    "UPDATE",
+                    "10:30"
+                ]
+            },
+            "turn_id": "sng0699-2"
+        },
+        {
+            "user_utterance": "no , that is all . thank you so much for your help .",
+            "user_utterance_delex": "no , that is all . thank you so much for your help .",
+            "system_utterance": "i was able to book a table for 5 at 10:30 on sunday . your reference number is mbc9e6al . is there anything else i can help you with today ?",
+            "system_utterance_delex": "i was able to book a table for [value_count] at [value_time] on [value_day] . your reference number is [restaurant_reference] . is there anything else i can help you with today ?",
+            "belief_state": [
+                [
+                    "restaurant-book day",
+                    "sunday"
+                ],
+                [
+                    "restaurant-book people",
+                    "5"
+                ],
+                [
+                    "restaurant-book time",
+                    "10:30"
+                ],
+                [
+                    "restaurant-food",
+                    "italian"
+                ],
+                [
+                    "restaurant-name",
+                    "frankie and bennys"
+                ],
+                [
+                    "restaurant-price range",
+                    "expensive"
+                ]
+            ],
+            "state_change": {},
+            "turn_id": "sng0699-3"
+        }
+    ],
+    "dialogue_id": "sng0699"
+}

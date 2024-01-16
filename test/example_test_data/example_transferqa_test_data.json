@@ -1,0 +1,283 @@
+[
+    {
+        "train": [
+            [
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: "
+            ],
+            [
+                [
+                    "restaurant-food",
+                    "portugese"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ],
+        "test": [
+            [
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: "
+            ],
+            [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-food",
+                    "portugese"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "none"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ]
+    },
+    {
+        "train": [
+            [
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: "
+            ],
+            [
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ],
+        "test": [
+            [
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . Answer: "
+            ],
+            [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ]
+    },
+    {
+        "train": [
+            [
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: "
+            ],
+            [
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ],
+        "test": [
+            [
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? Answer: "
+            ],
+            [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        ]
+    },
+    {
+        "train": [
+            [
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: "
+            ],
+            [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "monday"
+                ],
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-name",
+                    "anatolia"
+                ],
+                [
+                    "restaurant-people",
+                    "1"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-time",
+                    "14:00"
+                ]
+            ]
+        ],
+        "test": [
+            [
+                "[target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: ",
+                "[target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? [sys] yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ? [user] if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead . [sys] i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ? [user] actually i need a moderate -ly priced restaurant . are there any fitting that description ? [sys] i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ? [user] yes , i need a reservation for 1 people at 14:00 on monday . Answer: "
+            ],
+            [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "monday"
+                ],
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-name",
+                    "anatolia"
+                ],
+                [
+                    "restaurant-people",
+                    "1"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "moderate"
+                ],
+                [
+                    "restaurant-time",
+                    "14:00"
+                ]
+            ]
+        ]
+    }
+]

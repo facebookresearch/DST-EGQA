@@ -1,0 +1,127 @@
+{
+    "sng01608-0": {
+        "aligned": {
+            "inputs": [
+                "[ex] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what type of cuisine does the user want? Context: [user] i am looking for an expensive italian restaurant . Answer: italian [target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what is the name of the restaurant that the user wants? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: for how many people does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] i am looking for an expensive italian restaurant . Answer: expensive [target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what time does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: "
+            ],
+            "outputs": [
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-food",
+                    "portugese"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "none"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        },
+        "mixed": {
+            "inputs": [
+                "[ex] Extractive question: what type of cuisine does the user want? Context: [user] i am looking for an expensive italian restaurant . Answer: italian [target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] i am looking for an expensive italian restaurant . Answer: expensive [target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what is the name of the restaurant that the user wants? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: for how many people does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what time does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: "
+            ],
+            "outputs": [
+                [
+                    "restaurant-food",
+                    "portugese"
+                ],
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "none"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ]
+            ]
+        },
+        "random": {
+            "inputs": [
+                "[ex] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: on what day of the week does the user want the restaurant reservation? [opt] friday [opt] monday [opt] saturday [opt] sunday [opt] thursday [opt] tuesday [opt] wednesday Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what is the name of the restaurant that the user wants? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what type of cuisine does the user want? Context: [user] i am looking for an expensive italian restaurant . Answer: italian [target] Extractive question: for how many people does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what is the name of the restaurant that the user wants? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what type of cuisine does the user want? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: for how many people does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Extractive question: what time does the user want to book the restaurant? Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] i am looking for an expensive italian restaurant . Answer: expensive [target] Multiple choice question: what is the area of the restaurant that the user wants? [opt] centre [opt] east [opt] north [opt] south [opt] west Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: ",
+                "[ex] Extractive question: what time does the user want to book the restaurant? Context: [user] i am looking for an expensive italian restaurant . Answer: none [target] Multiple choice question: what is the price range of the restaurant that the user wants? [opt] cheap [opt] expensive [opt] moderate [opt] dontcare Context: [user] are there any portuguese restaurant -s in cambridge ? Answer: "
+            ],
+            "outputs": [
+                [
+                    "restaurant-day",
+                    "none"
+                ],
+                [
+                    "restaurant-name",
+                    "none"
+                ],
+                [
+                    "restaurant-people",
+                    "none"
+                ],
+                [
+                    "restaurant-food",
+                    "portugese"
+                ],
+                [
+                    "restaurant-time",
+                    "none"
+                ],
+                [
+                    "restaurant-area",
+                    "none"
+                ],
+                [
+                    "restaurant-pricerange",
+                    "none"
+                ]
+            ]
+        }
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "domains": "restaurant",
+    "turns": [
+        {
+            "user_utterance": "are there any portuguese restaurant -s in cambridge ?",
+            "user_utterance_delex": "are there any [value_food] restaurant s in [value_place] ?",
+            "system_utterance": "",
+            "system_utterance_delex": "",
+            "belief_state": [
+                [
+                    "restaurant-food",
+                    "portugese"
+                ]
+            ],
+            "state_change": {
+                "restaurant-food": [
+                    "INSERT",
+                    "portugese"
+                ]
+            },
+            "turn_id": "sng01608-0"
+        },
+        {
+            "user_utterance": "if 1 of them has a moderate price range please give me that address . if not tell me about turkish restaurant -s instead .",
+            "user_utterance_delex": "if [value_count] of them has a [value_pricerange] price range please give me that address . if not tell me about [value_food] restaurant s instead .",
+            "system_utterance": "yes there is a portuguese restaurant in cambridge with 2 different location -s , would you like the addresses ?",
+            "system_utterance_delex": "yes there is a [value_food] restaurant in [value_place] with [value_count] different location s , would you like the addresses ?",
+            "belief_state": [
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-price range",
+                    "moderate"
+                ]
+            ],
+            "state_change": {
+                "restaurant-food": [
+                    "UPDATE",
+                    "turkish"
+                ],
+                "restaurant-price range": [
+                    "INSERT",
+                    "moderate"
+                ]
+            },
+            "turn_id": "sng01608-1"
+        },
+        {
+            "user_utterance": "actually i need a moderate -ly priced restaurant . are there any fitting that description ?",
+            "user_utterance_delex": "actually i need a [value_pricerange] ly priced restaurant . are there any fitting that description ?",
+            "system_utterance": "i have 2 turkish restuarants , both in the centre and both expensive . may i recommend anatolia ?",
+            "system_utterance_delex": "i have [value_count] [value_food] restuarants , both in the [value_area] and both [value_pricerange] . may i recommend [restaurant_name] ?",
+            "belief_state": [
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-price range",
+                    "moderate"
+                ]
+            ],
+            "state_change": {},
+            "turn_id": "sng01608-2"
+        },
+        {
+            "user_utterance": "yes , i need a reservation for 1 people at 14:00 on monday .",
+            "user_utterance_delex": "yes , i need a reservation for [value_count] people at [value_time] on [value_day] .",
+            "system_utterance": "i am sorry . i mistook that price range . the anatolia is in the moderate range . would that work for you ?",
+            "system_utterance_delex": "i am sorry . i mistook that price range . the [restaurant_name] is in the [value_pricerange] range . would that work for you ?",
+            "belief_state": [
+                [
+                    "restaurant-book day",
+                    "monday"
+                ],
+                [
+                    "restaurant-book people",
+                    "1"
+                ],
+                [
+                    "restaurant-book time",
+                    "14:00"
+                ],
+                [
+                    "restaurant-food",
+                    "turkish"
+                ],
+                [
+                    "restaurant-name",
+                    "anatolia"
+                ],
+                [
+                    "restaurant-price range",
+                    "moderate"
+                ]
+            ],
+            "state_change": {
+                "restaurant-book day": [
+                    "INSERT",
+                    "monday"
+                ],
+                "restaurant-book people": [
+                    "INSERT",
+                    "1"
+                ],
+                "restaurant-book time": [
+                    "INSERT",
+                    "14:00"
+                ],
+                "restaurant-name": [
+                    "INSERT",
+                    "anatolia"
+                ]
+            },
+            "turn_id": "sng01608-3"
+        }
+    ]
+}

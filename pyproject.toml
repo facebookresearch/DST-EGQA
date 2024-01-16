@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egqa"
+version = "0.0.1"
+authors = [
+  { name="Justin Cho", email="hd.justincho@gmail.com" },
+]
+description = "package for replicating DST-EGQA"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/facebookresearch/DST-EGQA"
+"Bug Tracker" = "https://github.com/facebookresearch/DST-EGQA/issues"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+target-version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | parlai_internal
+)/
+'''
